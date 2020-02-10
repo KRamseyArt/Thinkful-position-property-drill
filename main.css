@@ -1,0 +1,65 @@
+body * {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  padding: 5px 60px;
+  position: fixed;
+  background: gray;
+  width: 100%;
+}
+
+/** your styles go here **/
+body {
+  background: url(https://tf-assets-prod.s3.amazonaws.com/tf-curric/WEB-DEV-001/2.4.3_the_position_property/outerspace_landscape.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+
+main div {
+  border: 10px white dotted;
+  width: 600px;
+  height: 300px;
+  position: relative;
+  margin: 0 auto;
+  top: 200px;
+}
+main img {
+  width: 200px;
+  position: absolute;
+}
+#space-cat{
+  top: -100px;
+  left: -100px;
+}
+#space-dog{
+  bottom: -100px;
+  right: -100px;
+}
+
+
+.container img {
+  border-radius: 100%;
+  width: 50px;
+  border: 1px solid black;
+}
+
+.container ul {
+  position: absolute;
+  display: inline;
+}
+ul li {
+  display: inline;
+}
+ul li::after {
+  margin-left: 3px;
+  content: "|";
+}
